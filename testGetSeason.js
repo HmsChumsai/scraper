@@ -10,12 +10,11 @@ var url = 'http://us.soccerway.com/national/england/premier-league';
 request(url, function(error, response, html) {
 
     if (!error) {
-        var out = "";
-        var title, release, rating;
-        var links = [];
+
         var $ = cheerio.load(html);
 
-        $('div#subheading div.submenu_dropdown select#season_id_selector option').each(function() {
+        $('div#subheading div.submenu_dropdown select#season_id_selector option').each(function(i) {
+            if (i>10) {return ;}
             var link = $(this).attr('value');
             var season = $(this).text().trim();
 
@@ -27,10 +26,10 @@ request(url, function(error, response, html) {
             Urls.push(Seasons);
         });
         for (var i = 0; i < 5; i++) {
-            genRounId(url);
+            genRounId('http://us.soccerway.com/');
         }
     }
-    console.log(Urls);
+    //console.log(Urls);
 });
 
 function getRoundId(num) {
@@ -39,8 +38,8 @@ function getRoundId(num) {
 
 function genRounId(url) {
     if (!Urls.length) {
-        console.log('Done');
-        return ;
+        //console.log('Done');
+        return;
     }
 
     var pair = Urls.pop();
@@ -48,10 +47,22 @@ function genRounId(url) {
     var seasonUrl = url + pair.url;
     request(seasonUrl, function(error, response, html) {
         if (!error) {
-            console.log('season ' + season + ' genRounIdfounded');
-            genRounId(url);
+            //console.log('season ' + season + ' genRounIdfounded');
+            console.log(seasonUrl);
+            var $ = cheerio.load(html);
+            //$('div.content form table').each(function() {
+            //$('table#page_competition_1_block_home_table_2_block_home_table_small_1_table').each(function() {
+            $('div.content div table.playerstats.table').each(function() {
+                console.log('inner');
+                var x = $(this).attr('data-round_id');
+                console.log(season+'  data-round_id = '+x);
+            });
+            //genRounId('http://us.soccerway.com/');
         }
-        genRounId(url);
+        else {
+            genRounId('http://us.soccerway.com/');
+        }
+        //genRounId('http://us.soccerway.com/');
     })
 }
 var test = 'http://us.soccerway.com/national/england/premier-league'
