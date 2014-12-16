@@ -61,9 +61,12 @@ function wizard() {
 }
 
 function generateGetWeek(round_id, week) {
-
     url = 'http://us.soccerway.com/a/block_competition_matches_summary?block_id=page_competition_1_block_competition_matches_summary_6&callback_params=%7B%22page%22%3A%2218%22%2C%22bookmaker_urls%22%3A%5B%5D%2C%22block_service_id%22%3A%22competition_summary_block_competitionmatchessummary%22%2C%22round_id%22%3A%22' + round_id;
     url = url + '%22%2C%22outgroup%22%3A%22%22%2C%22view%22%3A%221%22%7D&action=changePage&params=%7B%22page%22%3A' + week + '%7D'
+    return url;
+};
+function generateGetSeason(nation,league) {
+    url = 'http://us.soccerway.com/national/'+nation+league;
     return url;
 };
 

@@ -64,32 +64,10 @@ Scraper.prototype.parsePage = function(data) {
   if (self.type == 'matches') {
     lists = parseMatches($);
   }
-  /*
-  if (self.type == 'matches') {
-    $('table.matches tbody tr').each(function(i, prod) {
-      var teamA = $('td.team.team-a', this).text();
-      var league = 'Bundesliga';
-      var teamB = $('td.team.team-b', this).text();
-      var score = $('td.score-time.score', this).text().trim().split('-');
-      var homeScore = score[0].trim();
-      var awayScore = score[1].trim();
-      var season = 2014;
-      var week = 15;
-      var json = {
-
-        teamA: teamA,
-        teamB: teamB,
-        homeScore: homeScore,
-        awayScore: awayScore,
-        season: season,
-        week: week,
-        league: league
-      }
-      lists.push(json);
-    });
+    if (self.type == 'seasons') {
+    lists = parseSeasons($);
   }
-  */
-
+  
   return lists;
 };
 
@@ -115,6 +93,33 @@ function parseMatches($) {
       league: league
     }
     lists.push(json);
+  });
+  return lists;
+}
+function parseSeasons($) {
+  var lists = [];
+  $('div#subheading').each(function(i, prod) {
+    /*
+    var teamA = $('td.team.team-a', this).text();
+    var league = 'Bundesliga';
+    var teamB = $('td.team.team-b', this).text();
+    var score = $('td.score-time.score', this).text().trim().split('-');
+    var homeScore = score[0].trim();
+    var awayScore = score[1].trim();
+    var season = 2014;
+    var week = 15;
+    var json = {
+
+      teamA: teamA,
+      teamB: teamB,
+      homeScore: homeScore,
+      awayScore: awayScore,
+      season: season,
+      week: week,
+      league: league
+    }
+    lists.push(json);
+    */
   });
   return lists;
 }
