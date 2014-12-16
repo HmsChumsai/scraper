@@ -1,0 +1,381 @@
+teamA,teamB,week,season
+"Hull City","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Burnley","Manchester United",15,1970-01-01T00:00:02.014Z
+"Arsenal","Manchester City",15,1970-01-01T00:00:02.014Z
+"Chelsea","Swansea City",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Burnley",15,1970-01-01T00:00:02.014Z
+"Southampton","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Stoke City","Leicester City",15,1970-01-01T00:00:02.014Z
+"Sunderland","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Everton",15,1970-01-01T00:00:02.014Z
+"Liverpool","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Manchester United","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Hull City","West Ham United",15,1970-01-01T00:00:02.014Z
+"Manchester City","Stoke City",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Sunderland",15,1970-01-01T00:00:02.014Z
+"Swansea City","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"West Ham United","Southampton",15,1970-01-01T00:00:02.014Z
+"Everton","Chelsea",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Hull City",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Liverpool",15,1970-01-01T00:00:02.014Z
+"Leicester City","Arsenal",15,1970-01-01T00:00:02.014Z
+"Chelsea","Leicester City",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","West Ham United",15,1970-01-01T00:00:02.014Z
+"Southampton","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Swansea City","Burnley",15,1970-01-01T00:00:02.014Z
+"Everton","Arsenal",15,1970-01-01T00:00:02.014Z
+"Hull City","Stoke City",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Sunderland","Manchester United",15,1970-01-01T00:00:02.014Z
+"Manchester City","Liverpool",15,1970-01-01T00:00:02.014Z
+"Manchester United","Swansea City",15,1970-01-01T00:00:02.014Z
+"Leicester City","Everton",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Hull City",15,1970-01-01T00:00:02.014Z
+"Stoke City","Aston Villa",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Sunderland",15,1970-01-01T00:00:02.014Z
+"West Ham United","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Arsenal","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Liverpool","Southampton",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Manchester City",15,1970-01-01T00:00:02.014Z
+"Burnley","Chelsea",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Stoke City",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Arsenal",15,1970-01-01T00:00:02.014Z
+"Burnley","Sunderland",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Hull City",15,1970-01-01T00:00:02.014Z
+"Swansea City","Southampton",15,1970-01-01T00:00:02.014Z
+"West Ham United","Liverpool",15,1970-01-01T00:00:02.014Z
+"Leicester City","Manchester United",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Everton","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Manchester City","Chelsea",15,1970-01-01T00:00:02.014Z
+"Leicester City","Burnley",15,1970-01-01T00:00:02.014Z
+"Liverpool","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Sunderland","Stoke City",15,1970-01-01T00:00:02.014Z
+"Swansea City","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Manchester City",15,1970-01-01T00:00:02.014Z
+"Manchester United","Everton",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Southampton",15,1970-01-01T00:00:02.014Z
+"Chelsea","Arsenal",15,1970-01-01T00:00:02.014Z
+"West Ham United","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Liverpool","Everton",15,1970-01-01T00:00:02.014Z
+"Chelsea","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Leicester City",15,1970-01-01T00:00:02.014Z
+"Hull City","Manchester City",15,1970-01-01T00:00:02.014Z
+"Manchester United","West Ham United",15,1970-01-01T00:00:02.014Z
+"Southampton","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Sunderland","Swansea City",15,1970-01-01T00:00:02.014Z
+"Arsenal","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Burnley",15,1970-01-01T00:00:02.014Z
+"Stoke City","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Manchester City","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Arsenal","Hull City",15,1970-01-01T00:00:02.014Z
+"Burnley","West Ham United",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Chelsea",15,1970-01-01T00:00:02.014Z
+"Everton","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Southampton","Sunderland",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Leicester City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Liverpool",15,1970-01-01T00:00:02.014Z
+"Stoke City","Swansea City",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Manchester United",15,1970-01-01T00:00:02.014Z
+"West Ham United","Manchester City",15,1970-01-01T00:00:02.014Z
+"Liverpool","Hull City",15,1970-01-01T00:00:02.014Z
+"Southampton","Stoke City",15,1970-01-01T00:00:02.014Z
+"Sunderland","Arsenal",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Swansea City","Leicester City",15,1970-01-01T00:00:02.014Z
+"Burnley","Everton",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Manchester United","Chelsea",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Liverpool",15,1970-01-01T00:00:02.014Z
+"Arsenal","Burnley",15,1970-01-01T00:00:02.014Z
+"Chelsea","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Everton","Swansea City",15,1970-01-01T00:00:02.014Z
+"Hull City","Southampton",15,1970-01-01T00:00:02.014Z
+"Leicester City","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Stoke City","West Ham United",15,1970-01-01T00:00:02.014Z
+"Manchester City","Manchester United",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Sunderland",15,1970-01-01T00:00:02.014Z
+"Liverpool","Chelsea",15,1970-01-01T00:00:02.014Z
+"Burnley","Hull City",15,1970-01-01T00:00:02.014Z
+"Manchester United","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Southampton","Leicester City",15,1970-01-01T00:00:02.014Z
+"West Ham United","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Manchester City",15,1970-01-01T00:00:02.014Z
+"Sunderland","Everton",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Stoke City",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Swansea City","Arsenal",15,1970-01-01T00:00:02.014Z
+"Chelsea","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Everton","West Ham United",15,1970-01-01T00:00:02.014Z
+"Leicester City","Sunderland",15,1970-01-01T00:00:02.014Z
+"Manchester City","Swansea City",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Stoke City","Burnley",15,1970-01-01T00:00:02.014Z
+"Arsenal","Manchester United",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Liverpool",15,1970-01-01T00:00:02.014Z
+"Hull City","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Southampton",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Arsenal",15,1970-01-01T00:00:02.014Z
+"Burnley","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Liverpool","Stoke City",15,1970-01-01T00:00:02.014Z
+"Manchester United","Hull City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Leicester City",15,1970-01-01T00:00:02.014Z
+"Swansea City","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"West Ham United","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Sunderland","Chelsea",15,1970-01-01T00:00:02.014Z
+"Southampton","Manchester City",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Everton",15,1970-01-01T00:00:02.014Z
+"Burnley","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Leicester City","Liverpool",15,1970-01-01T00:00:02.014Z
+"Manchester United","Stoke City",15,1970-01-01T00:00:02.014Z
+"Swansea City","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Aston Villa",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","West Ham United",15,1970-01-01T00:00:02.014Z
+"Arsenal","Southampton",15,1970-01-01T00:00:02.014Z
+"Chelsea","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Everton","Hull City",15,1970-01-01T00:00:02.014Z
+"Sunderland","Manchester City",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Chelsea",15,1970-01-01T00:00:02.014Z
+"Hull City","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Liverpool","Sunderland",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Burnley",15,1970-01-01T00:00:02.014Z
+"Stoke City","Arsenal",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Manchester City","Everton",15,1970-01-01T00:00:02.014Z
+"West Ham United","Swansea City",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Leicester City",15,1970-01-01T00:00:02.014Z
+"Southampton","Manchester United",15,1970-01-01T00:00:02.014Z
+"Burnley","Southampton",15,1970-01-01T00:00:02.014Z
+"Chelsea","Hull City",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Stoke City",15,1970-01-01T00:00:02.014Z
+"Leicester City","Manchester City",15,1970-01-01T00:00:02.014Z
+"Sunderland","West Ham United",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Arsenal","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Manchester United","Liverpool",15,1970-01-01T00:00:02.014Z
+"Swansea City","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Everton","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Chelsea","West Ham United",15,1970-01-01T00:00:02.014Z
+"Burnley","Liverpool",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Southampton",15,1970-01-01T00:00:02.014Z
+"Everton","Stoke City",15,1970-01-01T00:00:02.014Z
+"Leicester City","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Manchester United","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Sunderland","Hull City",15,1970-01-01T00:00:02.014Z
+"Swansea City","Aston Villa",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Manchester City",15,1970-01-01T00:00:02.014Z
+"Arsenal","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Manchester City","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Manchester United",15,1970-01-01T00:00:02.014Z
+"Hull City","Swansea City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Southampton","Everton",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Burnley",15,1970-01-01T00:00:02.014Z
+"West Ham United","Leicester City",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Sunderland",15,1970-01-01T00:00:02.014Z
+"Liverpool","Arsenal",15,1970-01-01T00:00:02.014Z
+"Stoke City","Chelsea",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Manchester United",15,1970-01-01T00:00:02.014Z
+"Southampton","Chelsea",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Sunderland",15,1970-01-01T00:00:02.014Z
+"Hull City","Leicester City",15,1970-01-01T00:00:02.014Z
+"Manchester City","Burnley",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Stoke City","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"West Ham United","Arsenal",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Everton",15,1970-01-01T00:00:02.014Z
+"Liverpool","Swansea City",15,1970-01-01T00:00:02.014Z
+"Stoke City","Manchester United",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Hull City","Everton",15,1970-01-01T00:00:02.014Z
+"Liverpool","Leicester City",15,1970-01-01T00:00:02.014Z
+"Manchester City","Sunderland",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Burnley",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Swansea City",15,1970-01-01T00:00:02.014Z
+"Southampton","Arsenal",15,1970-01-01T00:00:02.014Z
+"West Ham United","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Chelsea",15,1970-01-01T00:00:02.014Z
+"Sunderland","Liverpool",15,1970-01-01T00:00:02.014Z
+"Burnley","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Chelsea","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Everton","Manchester City",15,1970-01-01T00:00:02.014Z
+"Leicester City","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Swansea City","West Ham United",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Hull City",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Arsenal","Stoke City",15,1970-01-01T00:00:02.014Z
+"Manchester United","Southampton",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Liverpool",15,1970-01-01T00:00:02.014Z
+"Burnley","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Leicester City","Stoke City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Manchester United",15,1970-01-01T00:00:02.014Z
+"Swansea City","Chelsea",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Sunderland",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Southampton",15,1970-01-01T00:00:02.014Z
+"West Ham United","Hull City",15,1970-01-01T00:00:02.014Z
+"Manchester City","Arsenal",15,1970-01-01T00:00:02.014Z
+"Everton","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Hull City","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Everton",15,1970-01-01T00:00:02.014Z
+"Liverpool","West Ham United",15,1970-01-01T00:00:02.014Z
+"Manchester United","Leicester City",15,1970-01-01T00:00:02.014Z
+"Stoke City","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Sunderland","Burnley",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Chelsea","Manchester City",15,1970-01-01T00:00:02.014Z
+"Arsenal","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Southampton","Swansea City",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Chelsea",15,1970-01-01T00:00:02.014Z
+"Burnley","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Everton","Liverpool",15,1970-01-01T00:00:02.014Z
+"Leicester City","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Manchester City","Hull City",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Stoke City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Southampton",15,1970-01-01T00:00:02.014Z
+"Swansea City","Sunderland",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Arsenal",15,1970-01-01T00:00:02.014Z
+"West Ham United","Manchester United",15,1970-01-01T00:00:02.014Z
+"Arsenal","Leicester City",15,1970-01-01T00:00:02.014Z
+"Hull City","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Manchester United","Burnley",15,1970-01-01T00:00:02.014Z
+"Southampton","West Ham United",15,1970-01-01T00:00:02.014Z
+"Sunderland","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Liverpool","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Swansea City",15,1970-01-01T00:00:02.014Z
+"Chelsea","Everton",15,1970-01-01T00:00:02.014Z
+"Stoke City","Manchester City",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Stoke City",15,1970-01-01T00:00:02.014Z
+"Chelsea","Burnley",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Arsenal",15,1970-01-01T00:00:02.014Z
+"Everton","Leicester City",15,1970-01-01T00:00:02.014Z
+"Hull City","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Manchester City","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Southampton","Liverpool",15,1970-01-01T00:00:02.014Z
+"Sunderland","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Swansea City","Manchester United",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","West Ham United",15,1970-01-01T00:00:02.014Z
+"Arsenal","Everton",15,1970-01-01T00:00:02.014Z
+"Burnley","Swansea City",15,1970-01-01T00:00:02.014Z
+"Leicester City","Chelsea",15,1970-01-01T00:00:02.014Z
+"Liverpool","Manchester City",15,1970-01-01T00:00:02.014Z
+"Manchester United","Sunderland",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Stoke City","Hull City",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Southampton",15,1970-01-01T00:00:02.014Z
+"West Ham United","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Aston Villa","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Hull City","Sunderland",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Arsenal",15,1970-01-01T00:00:02.014Z
+"Southampton","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"West Ham United","Chelsea",15,1970-01-01T00:00:02.014Z
+"Liverpool","Burnley",15,1970-01-01T00:00:02.014Z
+"Manchester City","Leicester City",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Manchester United",15,1970-01-01T00:00:02.014Z
+"Stoke City","Everton",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Swansea City",15,1970-01-01T00:00:02.014Z
+"Arsenal","West Ham United",15,1970-01-01T00:00:02.014Z
+"Burnley","Manchester City",15,1970-01-01T00:00:02.014Z
+"Chelsea","Southampton",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Everton","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Leicester City","Hull City",15,1970-01-01T00:00:02.014Z
+"Manchester United","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Sunderland","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Swansea City","Liverpool",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Stoke City",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Swansea City",15,1970-01-01T00:00:02.014Z
+"Hull City","Chelsea",15,1970-01-01T00:00:02.014Z
+"Liverpool","Manchester United",15,1970-01-01T00:00:02.014Z
+"Manchester City","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Arsenal",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Everton",15,1970-01-01T00:00:02.014Z
+"Southampton","Burnley",15,1970-01-01T00:00:02.014Z
+"Stoke City","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Leicester City",15,1970-01-01T00:00:02.014Z
+"West Ham United","Sunderland",15,1970-01-01T00:00:02.014Z
+"Arsenal","Liverpool",15,1970-01-01T00:00:02.014Z
+"Burnley","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Chelsea","Stoke City",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Manchester City",15,1970-01-01T00:00:02.014Z
+"Everton","Southampton",15,1970-01-01T00:00:02.014Z
+"Leicester City","West Ham United",15,1970-01-01T00:00:02.014Z
+"Manchester United","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Sunderland","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Swansea City","Hull City",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Burnley","Arsenal",15,1970-01-01T00:00:02.014Z
+"Liverpool","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Manchester United","Manchester City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Chelsea",15,1970-01-01T00:00:02.014Z
+"Southampton","Hull City",15,1970-01-01T00:00:02.014Z
+"Sunderland","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Swansea City","Everton",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Aston Villa",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Leicester City",15,1970-01-01T00:00:02.014Z
+"West Ham United","Stoke City",15,1970-01-01T00:00:02.014Z
+"Arsenal","Sunderland",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Chelsea","Manchester United",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Everton","Burnley",15,1970-01-01T00:00:02.014Z
+"Hull City","Liverpool",15,1970-01-01T00:00:02.014Z
+"Leicester City","Swansea City",15,1970-01-01T00:00:02.014Z
+"Manchester City","West Ham United",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Stoke City","Southampton",15,1970-01-01T00:00:02.014Z
+"Arsenal","Chelsea",15,1970-01-01T00:00:02.014Z
+"Burnley","Leicester City",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Hull City",15,1970-01-01T00:00:02.014Z
+"Everton","Manchester United",15,1970-01-01T00:00:02.014Z
+"Manchester City","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Newcastle United","Swansea City",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","West Ham United",15,1970-01-01T00:00:02.014Z
+"Southampton","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Stoke City","Sunderland",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Liverpool",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Everton",15,1970-01-01T00:00:02.014Z
+"Chelsea","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Hull City","Arsenal",15,1970-01-01T00:00:02.014Z
+"Leicester City","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Liverpool","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Manchester United","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Sunderland","Southampton",15,1970-01-01T00:00:02.014Z
+"Swansea City","Stoke City",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Manchester City",15,1970-01-01T00:00:02.014Z
+"West Ham United","Burnley",15,1970-01-01T00:00:02.014Z
+"Arsenal","Swansea City",15,1970-01-01T00:00:02.014Z
+"Aston Villa","West Ham United",15,1970-01-01T00:00:02.014Z
+"Chelsea","Liverpool",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Manchester United",15,1970-01-01T00:00:02.014Z
+"Everton","Sunderland",15,1970-01-01T00:00:02.014Z
+"Hull City","Burnley",15,1970-01-01T00:00:02.014Z
+"Leicester City","Southampton",15,1970-01-01T00:00:02.014Z
+"Manchester City","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Newcastle United","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Stoke City","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Burnley","Stoke City",15,1970-01-01T00:00:02.014Z
+"Liverpool","Crystal Palace",15,1970-01-01T00:00:02.014Z
+"Manchester United","Arsenal",15,1970-01-01T00:00:02.014Z
+"Queens Park Ra…","Newcastle United",15,1970-01-01T00:00:02.014Z
+"Southampton","Aston Villa",15,1970-01-01T00:00:02.014Z
+"Sunderland","Leicester City",15,1970-01-01T00:00:02.014Z
+"Swansea City","Manchester City",15,1970-01-01T00:00:02.014Z
+"Tottenham Hotspur","Hull City",15,1970-01-01T00:00:02.014Z
+"West Bromwich …","Chelsea",15,1970-01-01T00:00:02.014Z
+"West Ham United","Everton",15,1970-01-01T00:00:02.014Z
+"Arsenal","West Bromwich …",15,1970-01-01T00:00:02.014Z
+"Aston Villa","Burnley",15,1970-01-01T00:00:02.014Z
+"Chelsea","Sunderland",15,1970-01-01T00:00:02.014Z
+"Crystal Palace","Swansea City",15,1970-01-01T00:00:02.014Z
+"Everton","Tottenham Hotspur",15,1970-01-01T00:00:02.014Z
+"Hull City","Manchester United",15,1970-01-01T00:00:02.014Z
+"Leicester City","Queens Park Ra…",15,1970-01-01T00:00:02.014Z
+"Manchester City","Southampton",15,1970-01-01T00:00:02.014Z
+"Newcastle United","West Ham United",15,1970-01-01T00:00:02.014Z
+"Stoke City","Liverpool",15,1970-01-01T00:00:02.014Z
