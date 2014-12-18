@@ -1,20 +1,24 @@
 var request = require('request');
 var cheerio = require('cheerio');
+var util = require('util');
+var EventEmitter = require('events').EventEmitter;
 
 /*
  * Scraper Constructor
  **/
 //var test = new seasonScraper('http://us.soccerway.com/national/england/premier-league');
 
-function seasonScraper(leagueUrl) {
+function SeasonScraper(leagueUrl) {
     this.Urls = [];
     this.RoundIds = [];
-    this.url = 'http://us.soccerway.com/national/england/premier-league';
+    this.url = leagueUrl;
     this.CountSession = 0;
     this.init();
 }
 
-seasonScraper.prototype.init = function() {
+util.inherits(SeasonScraper, EventEmitter);
+
+SeasonScraper.prototype.init = function() {
     var that = this;
     request(this.url, function(error, response, html) {
 
@@ -23,27 +27,24 @@ seasonScraper.prototype.init = function() {
             var $ = cheerio.load(html);
             //get all season availabll and its associated url
             $('div#subheading div.submenu_dropdown select#season_id_selector option').each(function(i) {
-
                 var link = $(this).attr('value');
                 var season = $(this).text().trim();
-
                 var Seasons = {
                     season: season,
                     url: link
                 };
-
+                if (i>5) {return false};   //test 
                 that.Urls.push(Seasons);
             });
-            for (var i = 0; i < 5; i++) {
+            for (var i = 0; i < 3; i++) {
                 that.genRounId('http://us.soccerway.com/');
             }
         }
-        //console.log(Urls);
     });
 };
 
 
-seasonScraper.prototype.genRounId = function(url) {
+SeasonScraper.prototype.genRounId = function(url) {
     var that = this;
     if (!this.Urls.length) {
         this.CountSession--;
@@ -85,7 +86,12 @@ seasonScraper.prototype.genRounId = function(url) {
             console.log(error);
             that.genRounId('http://us.soccerway.com/');
         }
+        
+        if (that.CountSession == that.RoundIds.length) {
+            console.log("that.CountSession==that.RoundId.length");
+            that.emit('complete', that.RoundIds);
+        }
     });
     that.genRounId('http://us.soccerway.com/');
 };
-module.exports = seasonScraper;
+module.exports = SeasonScraper;

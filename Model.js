@@ -11,7 +11,7 @@ var FixturesSchema = new Schema({
   teamB: String,
   homeScore: Number,
   awayScore: Number,
-  season: Number,
+  season: String,
   week: Number,
 });
 FixturesSchema.index( { league: 1, teamA: 1, teamB: 1 , season: 1, week:1 }, { unique: true } )

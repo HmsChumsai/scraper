@@ -6,11 +6,13 @@ var STATUS_CODES = http.STATUS_CODES;
 /*
  * Scraper Constructor
  **/
-function Scraper(url, type) {
+function Scraper(url, type, season,week) {
     this.url = url;
     this.fixtures = [];
     this.init();
     this.type = type;
+    this.season =  season;
+    this.week=week;
   }
   /*
    * Make it an EventEmitter
@@ -22,6 +24,7 @@ Scraper.prototype.init = function() {
   var self = this;
   self.on('loaded', function(html) {
     console.log('self.on(loaded)' + '\n');
+    console.log('Scraper.url:'+self.url);
     self.fixtures = self.parsePage(html);
     self.emit('complete', self.fixtures);
   });
@@ -55,33 +58,34 @@ Scraper.prototype.loadWebPage = function() {
 Scraper.prototype.parsePage = function(data) {
   var self = this;
   console.log("parsePage");
+  console.log("season:"+self.data);
   var jsonObject = JSON.parse(data);
   var html = jsonObject.commands[0].parameters.content;
-  //console.log('Html \n'+html);
-  //console.log(data);
   var lists = [];
   var $ = cheerio.load(html);
   if (self.type == 'matches') {
-    lists = parseMatches($);
+    
+    lists = parseMatches($, self.season,self.week); //self.data=season
   }
-    if (self.type == 'seasons') {
+  if (self.type == 'seasons') {
     lists = parseSeasons($);
   }
-  
+
   return lists;
 };
 
-function parseMatches($) {
+function parseMatches($, season,week) {
   var lists = [];
+  var self=this;
   $('table.matches tbody tr').each(function(i, prod) {
     var teamA = $('td.team.team-a', this).text();
-    var league = 'Bundesliga';
+    var league = 'Premire';
     var teamB = $('td.team.team-b', this).text();
     var score = $('td.score-time.score', this).text().trim().split('-');
     var homeScore = score[0].trim();
     var awayScore = score[1].trim();
-    var season = 2014;
-    var week = 15;
+    //var season = 2014;
+    var week = week;
     var json = {
 
       teamA: teamA,
@@ -96,31 +100,12 @@ function parseMatches($) {
   });
   return lists;
 }
+
 function parseSeasons($) {
   var lists = [];
   $('div#subheading').each(function(i, prod) {
     console.log('founded');
-    /*
-    var teamA = $('td.team.team-a', this).text();
-    var league = 'Bundesliga';
-    var teamB = $('td.team.team-b', this).text();
-    var score = $('td.score-time.score', this).text().trim().split('-');
-    var homeScore = score[0].trim();
-    var awayScore = score[1].trim();
-    var season = 2014;
-    var week = 15;
-    var json = {
 
-      teamA: teamA,
-      teamB: teamB,
-      homeScore: homeScore,
-      awayScore: awayScore,
-      season: season,
-      week: week,
-      league: league
-    }
-    lists.push(json);
-    */
   });
   return lists;
 }
