@@ -63,16 +63,22 @@ function genRounId(url) {
             var $ = cheerio.load(html);
             //$('div.content form table').each(function() {
             //$('table#page_competition_1_block_home_table_2_block_home_table_small_1_table').each(function() {
-            $('div.content div table.playerstats.table').each(function() {
-                //console.log('inner');
-                var x = $(this).attr('data-round_id');
-                console.log(season + '  data-round_id = ' + x);
-                var RoundId = {
-                    season: season,
-                    id: x
-                };
-                RoundIds.push(RoundId);
+            $('div.content div div form table').each(function(i, elem) {
+                if (i == 0) {
+                    //$('div.content div table.playerstats.table').each(function() {
+                    //console.log('inner');
+                    var x = $(this).attr('data-round_id');
+                    console.log(season + '  data-round_id = ' + x);
+                    var RoundId = {
+                        season: season,
+                        id: x
+                    };
+                    RoundIds.push(RoundId);
+                    //return false;
+                }
+                else return false;
             });
+
         }
         else {
             console.log(error);

@@ -99,6 +99,7 @@ function parseMatches($) {
 function parseSeasons($) {
   var lists = [];
   $('div#subheading').each(function(i, prod) {
+    console.log('founded');
     /*
     var teamA = $('td.team.team-a', this).text();
     var league = 'Bundesliga';
