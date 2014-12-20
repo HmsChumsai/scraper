@@ -59,7 +59,7 @@ casper.thenOpen('https://www.easports.com/fifa/game-data/stats/thescrewcross/fif
 
     var bestseason = json2[1];
     var split = bestseason.indexOf("-");
-    bestDivision =parseInt(bestseason.substring(0, split));   //ignore number
+    bestDivision =parseInt(bestseason.substring(0, split)).replace(/\D/g,'');
     bestPoints = parseInt(bestseason.substring(split + 1, bestseason.length));
     titlesWon = json2[2];
     promotions = json2[3];

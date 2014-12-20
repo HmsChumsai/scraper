@@ -1,6 +1,4 @@
 var Spooky = require('spooky');
-
-
 var spooky = new Spooky({
     child: {
         transport: 'http'
@@ -16,13 +14,30 @@ var spooky = new Spooky({
         throw e;
     }
 
-    spooky.start(
-        'http://en.wikipedia.org/wiki/Spooky_the_Tuff_Little_Ghost');
+    spooky.start('https://www.easports.com/fifa/game-data/stats/thescrewcross/fifa15-ps4/futSeasons', function() {
+        console.log("test");
+        this.getTitle();
+        /*
+        if (this.exists('div.stat')) {
+            spooky.each(this.getElementsInfo('div.stat'), function(casper, element, j) {
+                console.log("Commencing")
+                    
+                    var category = element["text"];
+                    console.log(category);
+                    categories.push(category);
+                    
+            });
+        }
+        */
+        
+    });
+    /*
     spooky.then(function() {
         this.emit('hello', 'Hello, from ' + this.evaluate(function() {
             return document.title;
         }));
     });
+    */
     spooky.run();
 });
 
