@@ -8,8 +8,8 @@ var casper = require('casper').create({
     }
 });
 var json = [];
-var json2=[];
-var data={};
+var json2 = [];
+var data = {};
 
 
 casper.start('https://www.easports.com/fifa/game-data/stats/thescrewcross/fifa15-ps4/futSeasons', function() {
@@ -38,53 +38,53 @@ casper.thenOpen('https://www.easports.com/fifa/game-data/stats/thescrewcross/fif
         json.push(wins);
 
     });
-     casper.each(this.getElementsInfo('div.table-list li'), function(casper, element, j) {
+    casper.each(this.getElementsInfo('div.table-list li div.align-right'), function(casper, element, j) {
         // casper.each.getElementsInfo('', function(casper, element, j){
-    
+
         var ret = element["text"].trim();
         console.log('pos ' + j + ' : ' + ret);
         json2.push(ret);
 
     });
-    
-    var wins, ties, losses,passSuccess,averagePossession,goalsAgainst,goalsScored=0;
-    var bestDivision,titlesWon,promotions,relegations,bestPoints,gamesPlayed,seasonsPlayed=0;
-    wins =json[0];
-    ties =json[1];
+
+    var wins, ties, losses, passSuccess, averagePossession, goalsAgainst, goalsScored = 0;
+    var bestDivision, titlesWon, promotions, relegations, bestPoints, gamesPlayed, seasonsPlayed = 0;
+    wins = json[0];
+    ties = json[1];
     losses = json[2];
-    passSuccess=json[3];
-    averagePossession=json[4];
-    goalsScored=json[6]
-    goalsAgainst=json[7];
-    
-    var bestseason=json2[1];
-    var split=bestseason.indexOf('-');
-    bestDivision=bestseason.substring(0,split);
-    bestPoints=bestseason.substring(split+1,bestseason.length);
-    titlesWon=json2[2];
-    promotions=json2[3];
-    relegations=json2[4];
-    
-    
-    
+    passSuccess = parseInt(json[3]);
+    averagePossession = parseInt(json[4]);
+    goalsScored = json[6]
+    goalsAgainst = json[7];
+
+    var bestseason = json2[1];
+    var split = bestseason.indexOf("-");
+    bestDivision =parseInt(bestseason.substring(0, split));   //ignore number
+    bestPoints = parseInt(bestseason.substring(split + 1, bestseason.length));
+    titlesWon = json2[2];
+    promotions = json2[3];
+    relegations = json2[4];
+
+
+
     var record = {
         wins: wins,
         ties: ties,
         losses: losses
     };
-    data={
-        bestDivision:bestDivision,
-        bestPoints:bestPoints,
-        titlesWon:titlesWon,
-        promotions:promotions,
-        relegations:relegations,
-        goalsScored:goalsScored,
-        goalsAgainst:goalsAgainst,
-        gamesPlayed:gamesPlayed,
-        seasonsPlayed:seasonsPlayed,
-        record:record,
-        passSuccess:passSuccess,
-        averagePossession:averagePossession
+    data = {
+        bestDivision: bestDivision,
+        bestPoints: bestPoints,
+        titlesWon: titlesWon,
+        promotions: promotions,
+        relegations: relegations,
+        goalsScored: goalsScored,
+        goalsAgainst: goalsAgainst,
+        gamesPlayed: gamesPlayed,
+        seasonsPlayed: seasonsPlayed,
+        record: record,
+        passSuccess: passSuccess,
+        averagePossession: averagePossession
     }
     console.log(JSON.stringify(data));
 });
