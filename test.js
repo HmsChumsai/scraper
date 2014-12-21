@@ -1,4 +1,11 @@
 var phantom = require('node-phantom');
+
+function FifaScraper(url) {
+  this.url = url
+  this.init();
+
+};
+
 phantom.create(function(err, ph) {
   return ph.createPage(function(err, page) {
     return page.open("https://www.easports.com/fifa/game-data/stats/thescrewcross/fifa15-ps4/futSeasons", function(err, status) {
