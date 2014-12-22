@@ -61,7 +61,7 @@ function GetStat(url) {
 
                                 console.log(JSON.stringify(data));
                                 return data;
-                               
+
 
                             }, function(err, result) {
                                 console.log(result);

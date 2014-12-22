@@ -25,16 +25,61 @@ FifaScraper.prototype.init = function() {
                 var h2Arr = [],
                   pArr = [];
                 $('div.table-list li div.align-right').each(function() {
-                  h2Arr.push($(this).text());
+                  console.log("Found div.table");
+                  //h2Arr.push($(this).text());
+                  json2.push($(this).text());
                 });
                 $('p.stat-number').each(function() {
-                  pArr.push($(this).text());
-                });
+                  //pArr.push($(this).text())
+                  console.log("Found p.stat");
+                  json.push($(this).text());
 
+                });
+                var wins, ties, losses, passSuccess, averagePossession, goalsAgainst, goalsScored = 0;
+                var bestDivision, titlesWon, promotions, relegations, bestPoints, gamesPlayed, seasonsPlayed = 0;
+                wins = json[0];
+                ties = json[1];
+                losses = json[2];
+                passSuccess = parseInt(json[3]);
+                averagePossession = parseInt(json[4]);
+                goalsScored = json[6]
+                goalsAgainst = json[7];
+
+                var bestseason = json2[1];
+                //var split = bestseason.indexOf("-");
+                //bestDivision = parseInt(bestseason.substring(0, split)).replace(/\D/g, '');
+                //bestPoints = parseInt(bestseason.substring(split + 1, bestseason.length));
+                titlesWon = json2[2];
+                promotions = json2[3];
+                relegations = json2[4];
+                var record = {
+                  wins: wins,
+                  ties: ties,
+                  losses: losses
+                };
+                data = {
+                  bestDivision: bestDivision,
+                  bestPoints: bestPoints,
+                  titlesWon: titlesWon,
+                  promotions: promotions,
+                  relegations: relegations,
+                  goalsScored: goalsScored,
+                  goalsAgainst: goalsAgainst,
+                  gamesPlayed: gamesPlayed,
+                  seasonsPlayed: seasonsPlayed,
+                  record: record,
+                  passSuccess: passSuccess,
+                  averagePossession: averagePossession
+                }
+
+                console.log(JSON.stringify(data));
+                return data;
+                /*
                 return {
                   h2: h2Arr,
                   p: pArr
                 };
+                */
               }, function(err, result) {
                 console.log(result);
                 ph.exit();
@@ -45,7 +90,6 @@ FifaScraper.prototype.init = function() {
       });
     });
   });
-  this.data = data;
-  console.log(JSON.stringify(data));
+
 };
 module.exports = FifaScraper;
