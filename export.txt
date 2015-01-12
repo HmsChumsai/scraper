@@ -1,1 +1,0 @@
-mongoexport -h ds061620.mongolab.com:61620 -d fixtures -c fixtures -u takefive -p 57069610 -o fixtures.csv --csv -f teamA,teamB,homeScore,awayScore

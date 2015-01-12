@@ -1,8 +1,21 @@
 var phantom = require('node-phantom');
+var util = require('util');
+var EventEmitter = require('events').EventEmitter;
 
+function FifaScrape(user) {
+  this.user = user;
+  this.init();
+}
 
-function waitThenScrape(ph, page,results) {
-  
+util.inherits(FifaScrape, EventEmitter);
+FifaScrape.prototype.init = function() {
+  var self = this;
+  self.loadWebPage(this.user);
+};
+
+FifaScrape.prototype.waitThenScrape = function(ph, page, results) {
+  console.log("waitThenScrape");
+  var self = this;
   page.evaluate(function() {
     //Get what you want from the page using jQuery. A good way is to populate an object with all the jQuery commands that you need and then return the object.
     var json = [];
@@ -51,19 +64,20 @@ function waitThenScrape(ph, page,results) {
       passSuccess: passSuccess,
       averagePossession: averagePossession
     };
-    result=data;
+    result = data;
     return data;
 
   }, function(err, result) {
-    results=result;
-    console.log(result);
+    results = result;
     ph.exit();
+    self.emit('complete', result);
     //return result;
   });
   return results;
 }
 
-function getStat(user) {
+FifaScrape.prototype.loadWebPage=function (user) {
+  var self = this;
   var result;
   var url = 'https://www.easports.com/fifa/game-data/stats/' + user + '/fifa15-ps4/futSeasons';
   var option = {
@@ -71,19 +85,21 @@ function getStat(user) {
       'load-images': false
     }
   };
-  phantom.create(callback, option,result);
+  phantom.create(callback, option, result);
+
   function callback(err, ph) {
+    console.log("callback()");
     ph.createPage(function(err, page) {
+      console.log("createPage");
       page.open(url, function(err, status) {
         page.includeJs('http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', function(err) {
-          //console.log("opened site? ", status);
+          console.log("first:opened site? ", status);
           page.open(url, function(err, status) {
-            console.log("opened site? ", status);
+            console.log("second:opened site? ", status);
             //jQuery Loaded.
             //Wait for a bit for AJAX content to load on the page. Here, we are waiting 5 seconds.
             setTimeout(function() {
-              waitThenScrape(ph, page,result);
-              console.log("Get result:"+result);
+              self.waitThenScrape(ph, page, result);
             }, 3000);
           });
         });
@@ -94,4 +110,4 @@ function getStat(user) {
 };
 
 
-exports.getStat = getStat;
+module.exports = FifaScrape;
